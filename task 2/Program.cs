@@ -4,6 +4,11 @@ Console.WriteLine("enter first number: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("enter second number: ");
 int b = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(a > b ? "first number more second number"
-: "second number more first number");
+if (a > b){
+    Console.WriteLine("first number more second number");
+}
+else {
+    Console.WriteLine("second number more first number");
+}
+
 
