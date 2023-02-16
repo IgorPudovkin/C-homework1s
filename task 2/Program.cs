@@ -7,8 +7,9 @@ int b = Convert.ToInt32(Console.ReadLine());
 if (a > b){
     Console.WriteLine("first number more second number");
 }
-else {
+else if (b > a) {
     Console.WriteLine("second number more first number");
 }
-
-
+else {
+    Console.WriteLine("second number = first number");
+}
